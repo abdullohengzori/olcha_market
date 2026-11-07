@@ -78,4 +78,5 @@ class Product(TimeStampedModel):
     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='user')
     shop = models.ForeignKey(Shop, on_delete=models.CASCADE, related_name='shop')
     buy = models.DateField(auto_now_add=True)
-    print(salom)
+
+
